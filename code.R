@@ -4,7 +4,7 @@ library(webshot)
 library(htmlwidgets)
 
 dataset <- 
-  read.csv('D:/R scripts/script051120_Happiness_report_2019/World Happiness Report 2019/World Happiness Report 2019/world-happiness-report-2019.csv')
+  read.csv('~/dataset.csv')
 
 #Reshape dataframe
 df <- as.data.frame(dataset)
